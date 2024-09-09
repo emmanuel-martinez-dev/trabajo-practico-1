@@ -11,9 +11,9 @@ int main() {
     std::cin >> importeTotal;
 
     // Pedir los porcentajes
-    std::cout << "Ingrese el porcentaje para Libros de Interés General (20 para 20%): ";
+    std::cout << "Ingrese el porcentaje para Libros de Interes General (20 para 20%): ";
     std::cin >> porcentajeGeneral;
-    std::cout << "Ingrese el porcentaje para Libros de Tecnología (20 para 20%): ";
+    std::cout << "Ingrese el porcentaje para Libros de Tecnologia (20 para 20%): ";
     std::cin >> porcentajeTecnologia;
     std::cout << "Ingrese el porcentaje para Libros de Ciencias Sociales (20 para 20%): ";
     std::cin >> porcentajeCienciasSociales;
@@ -24,8 +24,8 @@ int main() {
     importeCienciasSociales = (importeTotal / 100) * porcentajeCienciasSociales;
 
     // Mostrar los resultados
-    std::cout << "Importe que invertirá en Libros de Interés General: $" << importeGeneral << std::endl;
-    std::cout << "Importe que invertirá en Libros de Tecnología: $" << importeTecnologia << std::endl;
+    std::cout << "Importe que invertirá en Libros de Interes General: $" << importeGeneral << std::endl;
+    std::cout << "Importe que invertirá en Libros de Tecnologia: $" << importeTecnologia << std::endl;
     std::cout << "Importe que invertirá en Libros de Ciencias Sociales: $" << importeCienciasSociales << std::endl;
 
     return 0;
